@@ -1,9 +1,9 @@
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: 'jdbc:postgresql://localhost:5555/reservations'
-    username: 'reservations_user'
-    password: 'reservations_psw'
+    url: 'jdbc:postgresql://fis.cb4kk8iiuvdy.ap-south-1.rds.amazonaws.com:5432/fis'
+    username: 'postgres'
+    password: 'Admin12345'
   jpa:
     properties:
       hibernate:
